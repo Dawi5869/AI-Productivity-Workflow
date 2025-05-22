@@ -1,30 +1,32 @@
-# AI Productivity Workflow: Discord News & Journaling Bot
+# AI Productivity Workflow: Discord-Based Daily Automation
 
 ## 🧠 Overview
-This project is a custom automation system built to streamline my daily productivity using AI, Make.com, and Discord. It delivers daily news updates across technical domains, manages journaling prompts, and sends tailored motivational messages based on user input — all triggered by Discord slash commands. The goal was to reduce friction in staying informed, reflective, and focused using smart, modular workflows.
+This project is a personal productivity automation system that uses Discord as the command hub and Make.com as the automation engine. By triggering a single slash command (`/start-daily`), the workflow delivers a curated summary of daily news across technical domains, sends a journaling prompt via Google Form, and responds with a motivational or reflective message based on the user’s input. The system is designed to reduce friction and help maintain momentum throughout the day.
 
 ## 🛠 Tools & Technologies
-- Make.com (workflow automation)
-- OpenAI API (ChatGPT-4 for summaries and responses)
-- Discord.js (Node.js bot interface)
-- RSS Feeds (news retrieval)
-- Google Sheets & Google Forms (journaling backend)
-- Webhooks & APIs (system communication)
+- **Make.com** – Main automation platform for scheduling, branching logic, and webhook handling  
+- **Discord.js** – Handles the bot and slash command (`/start-daily`)  
+- **Gemini 1.5 Flash** – AI model used for summarizing RSS news feeds  
+- **RSS Feeds** – Used to pull the latest articles in tech, AI, aerospace, and engineering  
+- **Google Forms + Google Sheets** – Collect and store journal entries  
+- **Webhook API** – For Make-Discord communication
 
 ## ⚙️ Features
-- `/test_tech_article`, `/test_ai_article`, etc. — Discord slash commands trigger news summaries by category
-- Uses RSS feeds to fetch recent articles, summarizes them with GPT, and sends formatted messages to Discord
-- Daily journaling prompt via Google Form, with entries saved in Sheets and analyzed via AI
-- Sends a personalized reflection or motivational message to Discord based on your journal entry
-- Modular branching logic in Make.com for scalable command handling
+- **Single Trigger Command**: `/start-daily` runs the full workflow from Discord
+- **News Summary Delivery**: Retrieves top articles by category (AI, tech, aerospace, etc.) and summarizes them using Gemini 1.5 Flash
+- **Daily Journaling Prompt**: Sends a Google Form link to Discord for reflection or goal tracking
+- **Motivational Response**: After journal submission, Discord replies with a prewritten message tailored to the context of the day
+- **Modular & Expandable**: Built in Make.com with logical paths that can easily be extended or customized
 
 ## 💡 Key Takeaways
-- Learned to chain APIs and platforms like Discord, OpenAI, and Make.com to build useful personal tools
-- Built flexible, repeatable automation paths that can scale or be adapted to client use cases
-- Gained hands-on experience with webhook configuration, RSS filtering, and API-based text generation
+- Designed a cross-platform automation system using Make, Gemini, and Discord APIs
+- Practiced clean branching logic and webhook configuration to make workflows efficient and low-maintenance
+- Gained practical experience creating a tool that supports daily productivity, reflection, and learning
 
 ## 📸 Demo & Screenshots
-![Workflow Overview](images/workflow-overview.png)
-![Discord Bot Output](images/discord-bot-message.png)
+*(Optional — add here if available)*
+- Workflow overview diagram
+- Example Discord bot message
+- Screenshot of journaling form
 
 ## 📁 File Structure
