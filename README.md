@@ -30,6 +30,6 @@ This project is a personal productivity automation system that uses Discord as t
 
 ## 📬 Contact
 Want to adapt this for your own productivity or workspace?  
-Reach out at [your.email@example.com](mailto:your.email@example.com) or [LinkedIn](https://www.linkedin.com/in/yourprofile)
+Reach out at dawi5869@colorado.edu
 
 
