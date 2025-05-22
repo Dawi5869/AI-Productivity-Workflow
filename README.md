@@ -24,7 +24,6 @@ This project is a personal productivity automation system that uses Discord as t
 - Gained practical experience creating a tool that supports daily productivity, reflection, and learning
 
 ## 📸 Demo & Screenshots
-*(Optional — add here if available)*
 - Workflow overview diagram
 - Example Discord bot message
 - Screenshot of journaling form
