@@ -28,27 +28,6 @@ This project is a personal productivity automation system that uses Discord as t
 - Example Discord bot message
 - Screenshot of journaling form
 
-## 📁 File Structure
-/src
-├─ bot.js # Discord bot logic
-├─ config.json # Bot token, app ID, and slash command config
-└─ /commands # Slash command definition (currently only /start-daily)
-/make # Sample webhook payload and Make scenario export
-README.md
-
-
-## 🚀 How to Use
-1. Clone this repo  
-2. Create and configure a Discord bot via the Discord Developer Portal  
-3. Set up your Make.com scenario (webhooks, RSS module, Gemini summarization, Discord webhook reply)  
-4. Create a Google Form for journaling and link its submit URL in the workflow  
-5. Run the bot locally or deploy on a lightweight host (e.g. Replit, Render)
-
-## 🔗 Links
-- [Make.com](https://www.make.com/)  
-- [Gemini 1.5 Flash Overview](https://deepmind.google/technologies/gemini/)  
-- *(Optional: Add public Make scenario or journaling form template links here)*
-
 ## 📬 Contact
 Want to adapt this for your own productivity or workspace?  
 Reach out at [your.email@example.com](mailto:your.email@example.com) or [LinkedIn](https://www.linkedin.com/in/yourprofile)
