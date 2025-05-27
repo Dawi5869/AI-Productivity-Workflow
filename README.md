@@ -1,5 +1,7 @@
 # AI Productivity Workflow: Discord-Based Daily Automation
 
+<video src="assets/0526.mp4" autoplay loop muted playsinline width="600"></video>
+
 ## 🧠 Overview
 This project is a personal productivity automation system that uses Discord as the command hub and Make.com as the automation engine. By triggering a single slash command (`/start-daily`), the workflow delivers a curated summary of daily news across technical domains, sends a journaling prompt via Google Form, and responds with a motivational or reflective message based on the user’s input. The system is designed to reduce friction and help maintain momentum throughout the day.
 
