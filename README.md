@@ -17,7 +17,7 @@ This project is a personal productivity automation system that uses Discord as t
 - **Single Trigger Command**: `/start-daily` runs the full workflow from Discord
 - **News Summary Delivery**: Retrieves top articles by category (AI, tech, aerospace, etc.) and summarizes them using Gemini 1.5 Flash
 - **Daily Journaling Prompt**: Sends a Google Form link to Discord for reflection or goal tracking
-- **Motivational Response**: After journal submission, Discord replies with a prewritten message tailored to the context of the day
+- **Motivational Response**: After journal submission, Discord replies with an AI-written message tailored to the context of the day
 - **Modular & Expandable**: Built in Make.com with logical paths that can easily be extended or customized
 
 ## 💡 Key Takeaways
