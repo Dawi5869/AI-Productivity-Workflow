@@ -25,7 +25,7 @@ This project is a personal productivity automation system that uses Discord as t
 - Practiced clean branching logic and webhook configuration to make workflows efficient and low-maintenance
 - Gained practical experience creating a tool that supports daily productivity, reflection, and learning
 
-## 📸 Demo & Screenshots
+## 📸 Demo
 Here is a link to a quick demo video on YouTube: https://youtu.be/-X-WKNikei4
 
 ## 📬 Contact
